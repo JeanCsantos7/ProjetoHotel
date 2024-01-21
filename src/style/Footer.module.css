@@ -1,0 +1,84 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(32, 40, 101);
+  margin-top: 7%;
+}
+
+.container {
+  margin: 4%;
+}
+
+.spane {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6%;
+  gap: 2%;
+}
+
+.tituloFooter,
+.tituloNav {
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  text-align: center;
+  color: #fff;
+}
+
+.subTitulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 2%;
+  color: #fff;
+}
+
+.campoEntrada {
+  width: 290px;
+  height: 35px;
+  text-align: left;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  padding: 2%;
+}
+.btnEntrada {
+  font-family: "Poppins", sans-serif;
+  width: 35%;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(115, 128, 227);
+  color: #fff;
+  font-weight: 600;
+}
+
+.navFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12%;
+  margin-top: 6%;
+
+  margin-bottom: 3%;
+}
+
+.icon {
+  width: 25px;
+  margin-top: 3%;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    margin-top: 25%;
+  }
+
+  nav {
+    margin-top: 5%;
+  }
+}

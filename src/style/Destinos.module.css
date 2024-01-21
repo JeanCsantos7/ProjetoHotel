@@ -1,0 +1,193 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.destinosNacionais {
+  font-size: clamp(14px, 22px, 24px);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 3%;
+}
+
+.destinosInternacionais {
+  font-size: clamp(14px, 22px, 24px);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 3%;
+}
+
+.containerNacionais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardNacionais {
+  width: 325px;
+  height: 425px;
+  border-radius: 6px;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  background-color: rgb(32, 40, 101);
+  border-radius: 7px;
+}
+
+.imagemNacional {
+  width: 100%;
+  height: 50%;
+
+  border-radius: 7px;
+}
+
+.containerCardsNacionais {
+  display: flex;
+  gap: 6%;
+  margin-top: 4.5%;
+}
+
+.tituloPacotes {
+  font-weight: 700;
+  margin-top: 2%;
+  font-size: clamp(14px, 18px, 24px);
+  text-align: left;
+  margin-left: 6%;
+  color: #fff;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  margin-left: 6%;
+  margin-top: 6%;
+}
+
+h5 {
+  font-weight: 700;
+  background-color: rgb(57, 240, 103);
+  color: #fff;
+  width: 12%;
+  height: 25px;
+  text-align: center;
+  padding: 2%;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.estrela {
+  font-size: 17px;
+  color: rgb(240, 185, 57);
+}
+
+.Hotel {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 6%;
+  margin-top: 6%;
+}
+
+hr {
+  margin-top: 7%;
+  background-color: rgb(215, 215, 215);
+  border: none;
+  height: 0.1px;
+}
+
+.precoFinal {
+  font-size: 14px;
+  font-weight: 60;
+  color: #fff;
+  margin-left: 6%;
+  margin-top: 3%;
+}
+
+.precoFinal2 {
+  font-size: 14px;
+  font-weight: 60;
+  color: #ffffff;
+  margin-left: 6%;
+  margin-top: 1%;
+}
+
+.valorPassagem {
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  margin-left: 6%;
+}
+
+.BarraLateral {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 auto;
+  width: 85%;
+  height: 125px;
+  background: linear-gradient(to bottom, rgb(32, 40, 101), rgb(78, 88, 174));
+  border-radius: 7px;
+  margin-top: 3%;
+}
+
+.BarraLateral2 {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 auto;
+  width: 85%;
+  height: 125px;
+  background: linear-gradient(to bottom, rgb(32, 40, 101), rgb(78, 88, 174));
+  border-radius: 7px;
+
+  margin-top: 8%;
+}
+
+@media screen and (max-width: 768px) {
+  .cardNacionais {
+    width: 315px;
+    height: 452px;
+    padding: 4.5%;
+  }
+  .containerCardsNacionais {
+    flex-direction: column;
+
+    margin-top: 15%;
+  }
+
+  .destinosNacionais {
+    margin-top: 9.5%;
+  }
+
+  .tituloPacotes {
+    font-weight: 700;
+    margin-top: 2%;
+    font-size: clamp(14px, 24px, 28px);
+    text-align: left;
+    margin-left: 6%;
+    color: #fff;
+  }
+
+  .precoFinal,
+  .precoFinal2 {
+    font-size: 17px;
+  }
+
+  .Hotel {
+    font-size: 16px;
+  }
+
+  .BarraLateral {
+    width: 100%;
+    border-radius: 1px;
+    margin-top: 25%;
+  }
+
+  .BarraLateral2 {
+    width: 100%;
+    border-radius: 1px;
+    margin-top: 25%;
+  }
+
+  .destinosInternacionais {
+    margin-top: 11%;
+  }
+}

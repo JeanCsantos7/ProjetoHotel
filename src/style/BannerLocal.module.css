@@ -1,0 +1,28 @@
+main {
+  background-image: url("../assets//image/Praias.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+.titulo,
+.texto {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 35%;
+}
+
+.titulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+  font-size: 24px;
+}
+
+.texto {
+  margin-top: 1%;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}

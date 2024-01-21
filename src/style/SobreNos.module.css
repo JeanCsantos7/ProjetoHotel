@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.containerSobre {
+  background-color: rgb(32, 40, 101);
+  width: 100%;
+  height: 650px;
+  margin-top: 2.5%;
+  padding: 3%;
+}
+
+.tituloHistoria,
+.paragrafoHistoria {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.tituloHistoria {
+  font-size: clamp(14px, 24px, 28px);
+  margin-top: 2%;
+}
+
+.containerSobre p {
+  font-size: clamp(12px, 14px, 18px);
+  margin-top: 1%;
+}
+
+.cards {
+  background-color: #fff;
+  width: 20%;
+  height: 370px;
+  border-radius: 7px;
+}
+
+.QuemSomosCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.5%;
+  margin-top: 3%;
+}
+
+.titulos {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(32, 40, 101);
+  margin: 6%;
+}
+
+.paragrafoCards {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(12px, 14px, 18px);
+  text-align: justify;
+  color: rgb(29, 29, 31);
+  padding: 2%;
+  margin: 1%;
+}
+
+.containerMissao {
+  width: 75%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  background: linear-gradient(to bottom, rgb(32, 40, 101), rgb(78, 88, 174));
+  border-radius: 7px;
+}
+
+.tituloMissao {
+  font-family: "Poppins", sans-serif;
+  color: rgb(32, 40, 101);
+  font-size: 25px;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.containerIcones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1%;
+  gap: 9%;
+}
+
+.spanIcones {
+  margin-top: 2%;
+}
+
+.icones {
+  font-size: 46px;
+  color: #fff;
+}
+
+.tituloIcones {
+  font-family: "Poppins", sans-serif;
+  font-weight: 740;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.paragrafoIcones {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 2%;
+  margin-top: 5%;
+  color: #fff;
+}
+
+.imagemPeople {
+  width: 35%;
+  margin-left: 12%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 7px;
+}
+
+.containerPessoas {
+  display: flex;
+  align-items: center;
+}
+
+.informaçõesPessoas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerValores {
+  display: flex;
+}
+
+.ValoresCards {
+  margin-top: 3%;
+  margin-left: 7%;
+}
+
+.ValoresInfos {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  margin-top: 6.5%;
+}
+
+.iconesValores {
+  font-size: 45px;
+  color: rgb(29, 29, 31);
+}
+
+.tituloValores {
+  font-family: "Poppins", sans-serif;
+  color: rgb(32, 40, 101);
+  font-size: 26px;
+  word-spacing: 9px;
+}
+
+.paragrafoValores {
+  font-family: "Poppins", sans-serif;
+  color: rgb(29, 29, 31);
+  font-size: 14px;
+  margin-top: 1%;
+  margin-left: 17%;
+}
+
+.subtituloValores {
+  font-family: "Poppins", sans-serif;
+  color: rgb(32, 40, 101);
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .containerSobre {
+    margin-top: 8.5%;
+  }
+
+  .QuemSomosCard {
+    flex-direction: column;
+  }
+
+  .cards {
+    height: 205px;
+    width: 85%;
+    margin-top: 6%;
+  }
+
+  .paragrafoCards {
+    font-size: 12px;
+    padding: 4%;
+  }
+
+  .tituloHistoria {
+    font-size: 20px;
+  }
+
+  .paragrafoHistoria {
+    font-size: 12px;
+  }
+
+  .titulos {
+    font-size: 18px;
+  }
+
+  .containerSobre p {
+    font-size: 13px;
+    margin-top: 3%;
+  }
+
+  #ocultar {
+    display: none;
+  }
+
+  .containerMissao {
+    width: 100%;
+    height: 295px;
+    margin-top: 12%;
+    margin-bottom: 0%;
+    border-radius: 0.2px;
+  }
+
+  .tituloMissao {
+    font-family: "Poppins", sans-serif;
+    color: rgb(32, 40, 101);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7%;
+  }
+
+  .tituloIcones {
+    font-size: 17.5px;
+  }
+
+  .paragrafoIcones {
+    font-size: 12px;
+    text-align: text;
+    color: #fff;
+    margin: 7%;
+  }
+
+  .spanIcones {
+    margin-top: 12%;
+  }
+
+  .imagemPeople {
+    width: 86%;
+    padding-top: 12%;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+
+  .containerValores {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tituloValores {
+    margin-left: 2.5%;
+    margin-top: 18%;
+    text-align: center;
+  }
+
+  .paragrafoValores {
+    text-align: left;
+    margin-top: 3%;
+  }
+
+  .subtituloValores {
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .ValoresInfos {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13.5%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,98 @@
+.imgCard {
+  width: 100%;
+  height: 205px;
+  border-radius: 6px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  margin-top: 1%;
+}
+
+.titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(14px, 22px, 24px);
+  color: rgb(32, 40, 101);
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 13%;
+}
+
+.paragrafo {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: rgb(29, 29, 31);
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 0.6%;
+}
+
+.containerCard {
+  width: 340px;
+  height: 355px;
+  border-radius: 6px;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  background-color: rgb(32, 40, 101);
+}
+
+.containerCard h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-top: 2%;
+  font-size: clamp(14px, 18px, 24px);
+  text-align: center;
+  color: #fff;
+}
+
+.containerCard p {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  margin-top: 2%;
+  padding: 3.5%;
+  font-size: 13px;
+  text-align: left;
+  color: #fff;
+}
+
+.spanContainer {
+  display: flex;
+  gap: 4%;
+}
+
+@media screen and (max-width: 768px) {
+  .titulo {
+    text-align: center;
+    gap: 12%;
+    margin: 1%;
+    margin-top: 18%;
+  }
+
+  .paragrafo {
+    text-align: center;
+  }
+
+  .containerCard p {
+    font-size: 11px;
+    margin-top: 1%;
+    text-align: center;
+  }
+
+  .spanContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  .containerCard {
+    width: 275px;
+    height: 345px;
+    margin: 6%;
+  }
+}

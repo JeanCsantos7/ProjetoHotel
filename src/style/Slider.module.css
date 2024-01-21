@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.slide_item {
+  width: 90%;
+  height: 350px;
+  margin-left: 3%;
+  padding: 3%;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-top: 2%;
+}
+
+.tituloHeader {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1%;
+  margin-top: 5.5%;
+  font-size: clamp(18px, 20px, 24px);
+  color: rgb(32, 40, 101);
+  margin-left: 3%;
+}
+
+.paragrafoHeader {
+  font-family: "Poppins", sans-serif;
+  color: rgb(29, 29, 31);
+  font-size: clamp(14px, 16px, 18px);
+  margin-left: 3%;
+}
+
+.h3 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(32, 40, 101);
+  font-size: clamp(18px, 21px, 24px);
+  text-align: center;
+}
+
+.comodos {
+  font-family: "Poppins", sans-serif;
+  color: rgb(29, 29, 31);
+  text-align: center;
+  font-size: clamp(14px, 16px, 20px);
+}
+
+@media screen and (max-width: 768px) {
+  .tituloHeader {
+    margin-bottom: 2%;
+    margin-top: 13%;
+    font-size: clamp(18px, 20px, 24px);
+  }
+
+  .paragrafoHeader {
+    font-size: clamp(14px, 16px, 18px);
+    margin: 1%;
+    margin-top: 1.6%;
+    padding: 2%;
+  }
+
+  .h3 {
+    font-size: clamp(12px, 14px, 18px);
+  }
+
+  .comodos {
+    font-size: clamp(10px, 13px, 16px);
+  }
+
+  .slide_item {
+    width: 110%;
+    height: 200px;
+    margin: 2%;
+    padding: 3%;
+    border-radius: 18px;
+    object-fit: cover;
+    margin-top: 7.5%;
+  }
+}
