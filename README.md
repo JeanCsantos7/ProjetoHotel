@@ -1,6 +1,9 @@
 # Projeto Pousadas🏝
 Projeto que representa um site de pousadas e hoteis de diversos destinos nacionais e internacionais. Desenvolvido pra poder testar aprendizados a respeito de rotas em react, estilização com o css modules e também criação de sliders através da biblioteca Swiper
 
+
+
+![image](https://github.com/JeanCsantos7/ProjetoHotel/assets/126731254/6131011b-a7a7-441d-a552-3e1fd13a5e8c)
 <a href="https://projeto-hotel-seven.vercel.app/">Acesse aqui o Projeto</a>
 
 ## ⚙ Instalação
@@ -28,4 +31,4 @@ React Icons
 
 
 
-![image](https://github.com/JeanCsantos7/ProjetoHotel/assets/126731254/6131011b-a7a7-441d-a552-3e1fd13a5e8c)
+
